@@ -1,0 +1,333 @@
+{
+  "common": {
+    "title": "PDF Flyer",
+    "privacy_disclaimer": "Ihre hochgeladenen Dateien werden nicht auf unseren Servern gespeichert. Die gesamte Verarbeitung erfolgt lokal in Ihrem Browser, um Ihre Privatsphäre und Sicherheit zu gewährleisten.",
+    "give_feedback": "Feedback geben",
+    "feedback_success": "Danke für Ihr Feedback! Wir werden es nutzen, um unseren Service zu verbessern.",
+    "name": "Name",
+    "email": "Email",
+    "feedback": "Feedback",
+    "submit": "Senden",
+    "home": "Startseite",
+    "select_files": "Dateien auswählen",
+    "merged_pdf": "Zusammengefügte PDF",
+    "download": "Herunterladen",
+    "privacy_note": "Datenschutzhinweis",
+    "privacy_note_strong": "Datenschutzhinweis",
+    "drag_and_drop": "Ziehen Sie Ihre PDF-Datei hierher",
+    "drag_drop_word": "Ziehen Sie Ihre Word-Datei hierher",
+    "or": "oder",
+    "browse_files": "Dateien durchsuchen",
+    "max_file_size": "Maximale Dateigröße: 100MB",
+    "processing": "Verarbeitung",
+    "converting": "Konvertierung",
+    "conversion_complete": "Konvertierung abgeschlossen!",
+    "conversion_success_message": "Ihre PDF wurde erfolgreich konvertiert.",
+    "download_merged_pdf": "Zusammengeführte PDF herunterladen",
+    "conversion_options": "Konvertierungsoptionen",
+    "high": "Hoch",
+    "medium": "Mittel",
+    "low": "Niedrig",
+    "back_to_home": "Zurück zur Startseite",
+    "conversion_error": "Fehler bei der Konvertierung. Bitte versuchen Sie es erneut."
+  },
+  "chat": {
+    "title": "Chat mit Support",
+    "description": "Wir sind hier, um zu helfen!",
+    "initial_message": "Hallo! Wie kann ich Ihnen heute helfen?",
+    "auto_response": "Vielen Dank für Ihre Nachricht. Ein Support-Mitarbeiter wird sich in Kürze bei Ihnen melden.",
+    "type_message_placeholder": "Geben Sie Ihre Nachricht ein..."
+  },
+  "tools": {
+    "merge_pdf": {
+      "title": "PDF zusammenführen",
+      "description": "Mehrere PDF-Dateien zu einer zusammenfassen."
+    },
+    "split_pdf": {
+      "title": "PDF aufteilen",
+      "description": "Seiten aus einer PDF-Datei extrahieren.",
+      "upload_prompt": "Ziehen Sie Ihre PDF-Datei hierher oder klicken Sie zum Hochladen",
+      "upload_button": "PDF hochladen",
+      "selected_file": "Ausgewählte Datei",
+      "total_pages": "Gesamtseiten",
+      "options_heading": "Aufteilungsoptionen",
+      "split_all_pages": "Alle Seiten in separate PDFs aufteilen",
+      "split_by_range": "Nach Seitenbereich aufteilen",
+      "page_ranges_label": "Seitenbereiche (z.B. 1-5, 7, 10-12)",
+      "page_ranges_placeholder": "z.B. 1-5, 7, 10-12",
+      "page_ranges_helper": "Geben Sie Seitenzahlen oder -bereiche ein, getrennt durch Kommas.",
+      "split_button": "PDF aufteilen",
+      "result_heading": "Ergebnis der PDF-Aufteilung",
+      "download_button": "Aufgeteilte PDF herunterladen",
+      "zip_ready": "Ihre aufgeteilten PDFs sind als ZIP-Datei zum Download bereit.",
+      "split_success_zip": "PDF erfolgreich in mehrere Dateien aufgeteilt und gezippt!",
+      "split_success_single": "PDF erfolgreich aufgeteilt!",
+      "split_error": "Fehler beim Aufteilen der PDF",
+      "error_no_file_or_pages": "Bitte laden Sie eine PDF-Datei hoch und stellen Sie sicher, dass sie Seiten enthält.",
+      "error_invalid_ranges": "Ungültige Seitenbereiche angegeben. Bitte überprüfen Sie Ihre Eingabe.",
+      "error_no_output": "Es wurden keine PDFs basierend auf den ausgewählten Optionen generiert.",
+      "error_file_type": "Bitte laden Sie eine PDF-Datei (.pdf) hoch",
+      "error_file_size": "Dateigröße überschreitet das Limit von 100 MB",
+      "error_no_pages": "Die hochgeladene PDF hat keine Seiten oder konnte nicht verarbeitet werden.",
+      "error_loading_pdf": "Fehler beim Laden der PDF. Die Datei ist möglicherweise beschädigt oder wird nicht unterstützt."
+    },
+    "edit_pdf": {
+      "title": "PDF bearbeiten",
+      "description": "Text bearbeiten, Signaturen hinzufügen und mehr",
+      "upload_prompt": "Wählen Sie eine PDF-Datei aus, um mit der Bearbeitung zu beginnen.",
+      "upload_button": "PDF hochladen",
+      "error_file_type": "Nur PDF-Dateien werden unterstützt.",
+      "error_file_size": "Die Dateigröße überschreitet das Limit von 100 MB.",
+      "error_loading_pdf": "Fehler beim Laden der PDF-Datei. Die Datei ist möglicherweise beschädigt oder wird nicht unterstützt.",
+      "total_pages": "Gesamtseiten",
+      "page_number": "Seitennummer",
+      "add_text_label": "Text hinzufügen",
+      "add_text_placeholder": "Geben Sie den Text ein, der in die PDF eingefügt werden soll",
+      "add_text_button": "Text hinzufügen",
+      "add_image_label": "Bild hinzufügen (z. B. Unterschrift oder Stempel)",
+      "add_image_button": "Bild hinzufügen",
+      "preview_edited": "Bearbeitete PDF-Vorschau",
+      "download_button": "Bearbeitete PDF herunterladen",
+      "text_added": "Text wurde erfolgreich zur PDF hinzugefügt.",
+      "image_added": "Bild wurde erfolgreich zur PDF hinzugefügt.",
+      "edit_error": "Fehler beim Bearbeiten der PDF. Bitte versuchen Sie es erneut.",
+      "download_success": "Ihre bearbeitete PDF wurde erfolgreich heruntergeladen."
+    },
+    "pdf_to_word": {
+      "title": "PDF zu Word",
+      "description": "PDF-Dateien in bearbeitbare Word-Dokumente umwandeln."
+    },
+    "word_to_pdf": {
+      "title": "Word zu PDF",
+      "description": "Word-Dokumente in das PDF-Format umwandeln.",
+      "error_file_type": "Bitte laden Sie eine Word-Datei (.doc oder .docx) hoch",
+      "error_file_size": "Die Dateigröße überschreitet das Limit von 100 MB",
+      "error_no_file": "Bitte wählen Sie zuerst eine Word-Datei aus",
+      "output_quality": "Ausgabequalität",
+      "convert_button": "In PDF konvertieren",
+      "conversion_complete": "Konvertierung abgeschlossen!",
+      "download_prompt": "Ihr Word-Dokument wurde erfolgreich in das PDF-Format konvertiert.",
+      "download_button": "PDF-Dokument herunterladen"
+    },
+    "pdf_to_excel": {
+      "title": "PDF zu Excel",
+      "description": "Tabellen aus PDF nach Excel extrahieren",
+      "conversion_complete": "Konvertierung abgeschlossen!",
+      "download_prompt": "Ihr PDF-Dokument wurde erfolgreich in das Excel-Format konvertiert.",
+      "download_button": "Excel-Dokument herunterladen"
+    },
+    "excel_to_pdf": {
+      "title": "Excel zu PDF",
+      "description": "Excel-Tabellen in PDF umwandeln",
+      "error_file_type": "Bitte laden Sie eine Excel-Datei (.xls oder .xlsx) hoch",
+      "error_file_size": "Die Dateigröße überschreitet das Limit von 100 MB",
+      "error_no_file": "Bitte wählen Sie zuerst eine Excel-Datei aus",
+      "output_quality": "Ausgabequalität",
+      "convert_button": "In PDF konvertieren",
+      "conversion_complete": "Konvertierung abgeschlossen!",
+      "download_prompt": "Ihr Excel-Dokument wurde erfolgreich in das PDF-Format konvertiert.",
+      "download_button": "PDF-Dokument herunterladen"
+    },
+    "pdf_to_powerpoint": {
+      "title": "PDF zu PowerPoint",
+      "description": "PDF-Dateien in PowerPoint-Präsentationen umwandeln."
+    },
+    "powerpoint_to_pdf": {
+      "title": "PowerPoint zu PDF",
+      "description": "PowerPoint-Präsentationen in PDF-Dateien umwandeln."
+    },
+    "pdf_to_jpg": {
+      "title": "PDF zu JPG",
+      "description": "PDF-Seiten in JPG-Bilder umwandeln."
+    },
+    "pdf_to_png": {
+      "title": "PDF zu PNG",
+      "description": "PDF-Seiten in PNG-Bilder umwandeln."
+    },
+    "image_to_pdf": {
+      "title": "Bild zu PDF",
+      "description": "JPG-, PNG- und andere Bilder in PDF umwandeln."
+    },
+    "pdf_to_html": {
+      "title": "PDF zu HTML",
+      "description": "PDF-Dateien in HTML umwandeln."
+    }
+  },
+  "not_found": {
+    "title": "Seite nicht gefunden",
+    "description": "Die von Ihnen gesuchte Seite existiert nicht."
+  },
+  "language": {
+    "en": "Englisch",
+    "de": "Deutsch",
+    "switch": "Wechseln zu {{lang}}"
+  },
+  "nav": {
+    "home": "Startseite",
+    "tools": "Werkzeuge",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+  "footer": {
+    "description": "Alle PDF-Tools, die Sie benötigen, an einem Ort. Kostenlos, sicher und einfach zu bedienen.",
+    "tools": "Werkzeuge",
+    "company": "Firma",
+    "connect": "Verbinden",
+    "about_us": "Über uns",
+    "contact": "Kontakt",
+    "privacy_policy": "Datenschutz-Bestimmungen",
+    "terms_of_service": "Nutzungsbedingungen",
+    "rights_reserved": "Alle Rechte vorbehalten.",
+    "merge_pdf": "PDF zusammenführen",
+    "split_pdf": "PDF teilen",
+    "pdf_to_word": "PDF zu Word",
+    "word_to_pdf": "Word zu PDF"
+  },
+  "hero": {
+    "title": "Alle PDF-Tools, die Sie benötigen, an einem Ort",
+    "subtitle": "Konvertieren, bearbeiten, zusammenführen und teilen Sie PDF-Dateien. 100% kostenlos und sicher - Ihre Dateien verlassen niemals Ihren Computer.",
+    "button": "Werkzeuge erkunden"
+  },
+  "features": {
+    "title": "Warum PDF Flyer wählen?",
+    "secure": {
+      "title": "100% sicher",
+      "description": "Ihre Dateien werden lokal in Ihrem Browser verarbeitet und niemals auf einen Server hochgeladen."
+    },
+    "fast": {
+      "title": "Schnelle Verarbeitung",
+      "description": "Kein Warten auf Datei-Uploads oder -Downloads - verarbeiten Sie Dateien sofort in Ihrem Browser."
+    },
+    "free": {
+      "title": "Komplett frei",
+      "description": "Alle unsere PDF-Tools können kostenlos und ohne versteckte Kosten oder Einschränkungen verwendet werden."
+    }
+  },
+  "about": {
+    "title": "Über PDF Flyer",
+    "intro": {
+      "title": "Willkommen bei PDF Flyer",
+      "paragraph1": "PDF Flyer ist Ihre zentrale Online-Plattform für alle Ihre PDF-Bedürfnisse. Wir bieten eine umfassende Suite von Tools, mit denen Sie Ihre PDF-Dokumente einfach und effizient konvertieren, bearbeiten, zusammenführen, teilen und verwalten können.",
+      "paragraph2": "Unsere Mission ist es, die Dokumentenverwaltung für jedermann zu vereinfachen. Egal, ob Sie Student, Berufstätiger oder einfach jemand sind, der regelmäßig mit PDFs zu tun hat, PDF Flyer bietet intuitive und leistungsstarke Tools, um Ihren Workflow zu optimieren."
+    },
+    "mission": {
+      "title": "Unsere Mission",
+      "paragraph1": "Bei PDF Flyer glauben wir daran, leistungsstarke Tools für jedermann zugänglich zu machen. Unsere Mission ist es, eine kostenlose, sichere und benutzerfreundliche Plattform bereitzustellen, die Einzelpersonen und Unternehmen befähigt, ihre PDF-Dokumente zu verwalten, ohne Kompromisse bei Datenschutz oder Qualität einzugehen."
+    },
+    "key_features": {
+      "title": "Hauptmerkmale",
+      "privacy": {
+        "title": "Datenschutzorientiert",
+        "description": "Ihre Privatsphäre hat für uns oberste Priorität. Die gesamte Dateiverarbeitung erfolgt direkt in Ihrem Browser, wodurch sichergestellt wird, dass Ihre sensiblen Dokumente niemals Ihren Computer verlassen oder unsere Server berühren."
+      },
+      "speed": {
+        "title": "Blitzschnell",
+        "description": "Erleben Sie blitzschnelle Verarbeitungsgeschwindigkeiten. Da alles lokal erfolgt, gibt es keine Wartezeiten für Uploads oder Downloads, was Ihnen sofortige Ergebnisse liefert."
+      },
+      "cost": {
+        "title": "Komplett kostenlos",
+        "description": "Genießen Sie unbegrenzten Zugriff auf alle unsere Tools ohne versteckte Kosten, Abonnements oder Einschränkungen. PDF Flyer ist wirklich kostenlos für jedermann."
+      }
+    },
+    "tech_stack": {
+      "title": "Unsere Technologie",
+      "description": "PDF Flyer wurde mit modernen Webtechnologien entwickelt, um eine reibungslose, reaktionsschnelle und sichere Benutzererfahrung zu gewährleisten. Wir nutzen die Leistungsfähigkeit von React für ein dynamisches Frontend, Vite für eine schnelle Entwicklungsumgebung und Tailwind CSS für ein schlankes und anpassbares Design. Unsere clientseitige Verarbeitung wird durch robuste JavaScript-Bibliotheken unterstützt."
+    },
+    "team": {
+      "title": "Das Team hinter PDF Flyer",
+      "paragraph1": "PDF Flyer wird von einem leidenschaftlichen Ingenieurteam entwickelt und gewartet, das sich der Erstellung hochwertiger, datenschutzfreundlicher Webanwendungen verschrieben hat. Wir sind bestrebt, uns kontinuierlich zu verbessern und Ihnen die besten PDF-Tools zur Verfügung zu stellen."
+    },
+    "contact": {
+      "title": "Kontakt aufnehmen",
+      "paragraph1": "Haben Sie Fragen, Feedback oder Vorschläge? Wir würden uns freuen, von Ihnen zu hören! Kontaktieren Sie uns unter info@pdflyer.com."
+    }
+  },
+  "contact_page": {
+    "title": "Kontaktieren Sie uns",
+    "intro": {
+      "paragraph1": "Wir würden uns freuen, von Ihnen zu hören! Egal, ob Sie eine Frage, Feedback oder einen Vorschlag haben, zögern Sie nicht, uns über das untenstehende Formular oder über unsere Kontaktinformationen zu kontaktieren."
+    },
+    "form": {
+      "title": "Kontaktformular",
+      "name": "Ihr Name",
+      "email": "Ihre E-Mail",
+      "subject": "Betreff",
+      "message": "Ihre Nachricht",
+      "submit_button": "Nachricht senden"
+    },
+    "info": {
+      "title": "Kontaktinformationen",
+      "email_label": "E-Mail",
+      "email_address": "info@pdflyer.com"
+    },
+    "disclaimer": "Mit der Absendung dieses Formulars stimmen Sie der Verarbeitung Ihrer Daten in Verbindung mit unserer Datenschutzrichtlinie zu.",
+    "success_message": "Vielen Dank für Ihre Nachricht! Wir werden uns in Kürze bei Ihnen melden.",
+    "error_message": "Beim Senden Ihrer Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
+  },
+  "privacy_policy": {
+    "title": "Datenschutz-Bestimmungen",
+    "last_updated": "Zuletzt aktualisiert: 6. September 2025",
+    "intro": {
+      "paragraph1": "Diese Datenschutzrichtlinie beschreibt Unsere Richtlinien und Verfahren zur Erfassung, Verwendung und Offenlegung Ihrer Informationen, wenn Sie den Dienst nutzen, und informiert Sie über Ihre Datenschutzrechte und wie das Gesetz Sie schützt."
+    },
+    "information_we_collect": {
+      "title": "Informationen, die wir sammeln",
+      "paragraph1": "Wir sammeln keine personenbezogenen Daten von Ihnen, wenn Sie PDF Flyer nutzen. Die gesamte Dateiverarbeitung erfolgt lokal in Ihrem Browser. Ihre Dateien verlassen Ihr Gerät niemals und werden nicht auf Unseren Servern gespeichert."
+    },
+    "how_we_use_your_information": {
+      "title": "Wie wir Ihre Informationen verwenden",
+      "paragraph1": "Da Wir keine personenbezogenen Daten sammeln, verwenden Wir Ihre Informationen in keiner Weise."
+    },
+    "data_security": {
+      "title": "Datensicherheit",
+      "paragraph1": "Wir verpflichten uns, die Sicherheit Ihrer Informationen zu gewährleisten. Um unbefugten Zugriff oder Offenlegung zu verhindern, haben Wir geeignete physische, elektronische und verwaltungstechnische Verfahren eingerichtet, um die von Uns online gesammelten Informationen zu schützen und zu sichern. Da Wir jedoch keine Daten sammeln, dient dieser Abschnitt hauptsächlich als allgemeine Erklärung Unseres Engagements für Sicherheitsprinzipien."
+    },
+    "changes_to_this_policy": {
+      "title": "Änderungen dieser Datenschutzrichtlinie",
+      "paragraph1": "Wir können Unsere Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Wir werden Sie über Änderungen informieren, indem Wir die neue Datenschutzrichtlinie auf dieser Seite veröffentlichen. Es wird Ihnen empfohlen, diese Datenschutzrichtlinie regelmäßig auf Änderungen zu überprüfen. Änderungen dieser Datenschutzrichtlinie werden wirksam, wenn sie auf dieser Seite veröffentlicht werden."
+    },
+    "contact_us": {
+      "title": "Kontaktieren Sie uns",
+      "paragraph1": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, können Sie uns kontaktieren: Per E-Mail: info@pdflyer.com"
+    }
+  },
+  "terms_of_service": {
+    "title": "Nutzungsbedingungen",
+    "last_updated": "Zuletzt aktualisiert: 6. September 2025",
+    "intro": {
+      "paragraph1": "Bitte lesen Sie diese Nutzungsbedingungen sorgfältig durch, bevor Sie Unseren Dienst nutzen."
+    },
+    "acceptance_of_terms": {
+      "title": "Annahme der Bedingungen",
+      "paragraph1": "Durch den Zugriff auf oder die Nutzung des Dienstes erklären Sie sich mit diesen Bedingungen einverstanden. Wenn Sie mit einem Teil der Bedingungen nicht einverstanden sind, dürfen Sie den Dienst nicht nutzen."
+    },
+    "use_of_service": {
+      "title": "Nutzung des Dienstes",
+      "paragraph1": "PDF Flyer bietet Online-Tools zur PDF-Bearbeitung. Sie erklären sich damit einverstanden, den Dienst nur für rechtmäßige Zwecke und in einer Weise zu nutzen, die die Rechte anderer nicht verletzt oder deren Nutzung und Freude am Dienst nicht einschränkt oder behindert."
+    },
+    "intellectual_property": {
+      "title": "Geistiges Eigentum",
+      "paragraph1": "Der Dienst und seine ursprünglichen Inhalte (ausgenommen Inhalte, die von Ihnen oder anderen Nutzern bereitgestellt werden), Funktionen und Funktionalitäten sind und bleiben das ausschließliche Eigentum von PDF Flyer und seinen Lizenzgebern."
+    },
+    "disclaimer_of_warranties": {
+      "title": "Haftungsausschluss",
+      "paragraph1": "Der Dienst wird \"WIE BESEHEN\" und \"WIE VERFÜGBAR\" bereitgestellt. PDF Flyer gibt keine Zusicherungen oder Garantien jeglicher Art, weder ausdrücklich noch stillschweigend, hinsichtlich des Betriebs ihres Dienstes oder der darin enthaltenen Informationen, Inhalte oder Materialien."
+    },
+    "limitation_of_liability": {
+      "title": "Haftungsbeschränkung",
+      "paragraph1": "In keinem Fall haften PDF Flyer, noch seine Direktoren, Mitarbeiter, Partner, Vertreter, Lieferanten oder verbundenen Unternehmen für indirekte, zufällige, besondere, Folge- oder Strafschäden, einschließlich, aber nicht beschränkt auf, entgangenen Gewinn, Daten, Nutzung, Goodwill oder andere immaterielle Verluste, die sich aus (i) Ihrem Zugriff auf oder Ihrer Nutzung oder der Unfähigkeit zur Nutzung des Dienstes ergeben; (iii) jeglichem aus dem Dienst erhaltenen Inhalt; und (iv) unbefugtem Zugriff, Nutzung oder Änderung Ihrer Übertragungen oder Inhalte, sei es aufgrund von Garantie, Vertrag, unerlaubter Handlung (einschließlich Fahrlässigkeit) oder einer anderen Rechtstheorie, unabhängig davon, ob Wir über die Möglichkeit solcher Schäden informiert wurden, und selbst wenn ein hierin festgelegtes Rechtsmittel seinen wesentlichen Zweck verfehlt hat."
+    },
+    "changes_to_terms": {
+      "title": "Änderungen dieser Nutzungsbedingungen",
+      "paragraph1": "Wir behalten uns das Recht vor, nach eigenem Ermessen diese Bedingungen jederzeit zu ändern oder zu ersetzen. Wenn eine Überarbeitung wesentlich ist, werden Wir angemessene Anstrengungen unternehmen, um mindestens 30 Tage vor Inkrafttreten neuer Bedingungen eine Benachrichtigung zu senden. Was eine wesentliche Änderung darstellt, wird nach Unserem alleinigen Ermessen bestimmt."
+    },
+    "governing_law": {
+      "title": "Geltendes Recht",
+      "paragraph1": "Diese Bedingungen unterliegen den Gesetzen von Berlin, Deutschland, und werden in Übereinstimmung mit diesen ausgelegt, ohne Rücksicht auf Kollisionsnormen."
+    },
+    "contact_us": {
+      "title": "Kontaktieren Sie uns",
+      "paragraph1": "Wenn Sie Fragen zu diesen Nutzungsbedingungen haben, können Sie uns kontaktieren: Per E-Mail: info@pdflyer.com"
+    }
+  }
+}

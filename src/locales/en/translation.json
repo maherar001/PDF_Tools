@@ -1,0 +1,348 @@
+{
+  "common": {
+    "title": "PDF Flyer",
+    "privacy_disclaimer": "Your uploaded files are not saved or stored on our servers. All processing is handled locally on your browser for your privacy and security.",
+    "give_feedback": "Give Feedback",
+    "feedback_success": "Thank you for your feedback! We’ll use it to improve our service.",
+    "name": "Name",
+    "email": "Email",
+    "feedback": "Feedback",
+    "submit": "Submit",
+    "home": "Home",
+    "select_files": "Select Files",
+    "merged_pdf": "Merged PDF",
+    "download": "Download",
+    "privacy_note": "Privacy Note",
+    "privacy_note_strong": "Privacy Note",
+    "drag_and_drop": "Drag & drop your PDF file here",
+    "drag_drop_word": "Drag & drop your Word file here",
+    "drag_drop_powerpoint": "Drag & drop your PowerPoint file here",
+    "or": "or",
+    "browse_files": "Browse Files",
+    "max_file_size": "Maximum file size: 100MB",
+    "processing": "Processing",
+    "converting": "Converting",
+    "conversion_complete": "Conversion Complete!",
+    "conversion_success_message": "Your PDF has been successfully converted.",
+    "download_merged_pdf": "Download Merged PDF",
+    "conversion_options": "Conversion Options",
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low",
+    "back_to_home": "Back to Home",
+    "conversion_error": "Error during conversion. Please try again.",
+    "error": "Error",
+    "success": "Success"
+  },
+  "chat": {
+    "title": "Chat with Support",
+    "description": "We're here to help!",
+    "initial_message": "Hi there! How can I help you today?",
+    "auto_response": "Thank you for your message. A support agent will be with you shortly.",
+    "type_message_placeholder": "Type your message..."
+  },
+  "tools": {
+    "merge_pdf": {
+      "title": "Merge PDF",
+      "description": "Combine multiple PDF files into one."
+    },
+    "split_pdf": {
+      "title": "Split PDF",
+      "description": "Extract pages from a PDF file.",
+      "upload_prompt": "Drag & drop your PDF file here, or click to upload",
+      "upload_button": "Upload PDF",
+      "selected_file": "Selected File",
+      "total_pages": "Total Pages",
+      "options_heading": "Split Options",
+      "split_all_pages": "Split all pages into separate PDFs",
+      "split_by_range": "Split by page range",
+      "page_ranges_label": "Page Ranges (e.g., 1-5, 7, 10-12)",
+      "page_ranges_placeholder": "e.g., 1-5, 7, 10-12",
+      "page_ranges_helper": "Enter page numbers or ranges, separated by commas.",
+      "split_button": "Split PDF",
+      "result_heading": "Split PDF Result",
+      "download_button": "Download Split PDF",
+      "zip_ready": "Your split PDFs are ready for download as a ZIP file.",
+      "split_success_zip": "PDF successfully split into multiple files and zipped!",
+      "split_success_single": "PDF successfully split!",
+      "split_error": "Failed to split PDF",
+      "error_no_file_or_pages": "Please upload a PDF file and ensure it has pages.",
+      "error_invalid_ranges": "Invalid page ranges provided. Please check your input.",
+      "error_no_output": "No PDFs were generated based on the selected options.",
+      "error_file_type": "Please upload a PDF file (.pdf)",
+      "error_file_size": "File size exceeds the 100MB limit",
+      "error_no_pages": "The uploaded PDF has no pages or could not be processed.",
+      "error_loading_pdf": "Error loading PDF. The file might be corrupted or unsupported."
+    },
+    "edit_pdf": {
+      "title": "Edit PDF",
+      "description": "Edit text, add signatures and more",
+      "upload_prompt": "Select a PDF to start editing.",
+      "upload_button": "Upload PDF",
+      "error_file_type": "Only PDF files are supported.",
+      "error_file_size": "File size exceeds 100 MB limit.",
+      "error_loading_pdf": "Error loading PDF. The file might be corrupted or unsupported.",
+      "total_pages": "Total Pages",
+      "page_number": "Page Number",
+      "add_text_label": "Add Text",
+      "add_text_placeholder": "Enter text to add to PDF",
+      "add_text_button": "Add Text",
+      "add_image_label": "Add Image (e.g. signature or stamp)",
+      "add_image_button": "Add Image",
+      "preview_edited": "Preview Edited PDF",
+      "download_button": "Download Edited PDF",
+      "text_added": "Text successfully added to PDF.",
+      "image_added": "Image successfully added to PDF.",
+      "edit_error": "Error editing PDF. Please try again.",
+      "download_success": "Your edited PDF has been downloaded."
+    },
+    "pdf_to_word": {
+      "title": "PDF to Word",
+      "description": "Convert PDF to editable Word documents"
+    },
+    "word_to_pdf": {
+      "title": "Word to PDF",
+      "description": "Convert Word documents to PDF format",
+      "error_file_type": "Please upload a Word file (.doc or .docx)",
+      "error_file_size": "File size exceeds the 100MB limit",
+      "error_no_file": "Please select a Word file first",
+      "output_quality": "Output Quality",
+      "convert_button": "Convert to PDF",
+      "conversion_complete": "Conversion Complete!",
+      "download_prompt": "Your Word document has been successfully converted to PDF format.",
+      "download_button": "Download PDF Document"
+    },
+    "pdf_to_excel": {
+      "title": "PDF to Excel",
+      "description": "Extract tables from PDF to Excel",
+      "conversion_complete": "Conversion Complete!",
+      "download_prompt": "Your PDF document has been successfully converted to Excel format.",
+      "download_button": "Download Excel Document"
+    },
+    "excel_to_pdf": {
+      "title": "Excel to PDF",
+      "description": "Convert Excel spreadsheets to PDF",
+      "error_file_type": "Please upload an Excel file (.xls or .xlsx)",
+      "error_file_size": "File size exceeds the 100MB limit",
+      "error_no_file": "Please select an Excel file first",
+      "output_quality": "Output Quality",
+      "convert_button": "Convert to PDF",
+      "conversion_complete": "Conversion Complete!",
+      "download_prompt": "Your Excel document has been successfully converted to PDF format.",
+      "download_button": "Download PDF Document"
+    },
+    "pdf_to_powerpoint": {
+      "title": "PDF to PowerPoint",
+      "description": "Convert PDF files to PowerPoint presentations.",
+      "conversion_complete": "Conversion Complete!",
+      "download_prompt": "Your PDF document has been successfully converted to PowerPoint format.",
+      "download_button": "Download PowerPoint Document"
+    },
+    "powerpoint_to_pdf": {
+      "title": "PowerPoint to PDF",
+      "description": "Convert PowerPoint presentations to PDF files.",
+      "error_file_type": "Please upload a PowerPoint file (.ppt or .pptx)",
+      "error_file_size": "File size exceeds the 100MB limit",
+      "error_no_file": "Please select a PowerPoint file first",
+      "output_quality": "Output Quality",
+      "convert_button": "Convert to PDF",
+      "conversion_complete": "Conversion Complete!",
+      "download_prompt": "Your PowerPoint document has been successfully converted to PDF format.",
+      "download_button": "Download PDF Document"
+    },
+    "pdf_to_jpg": {
+      "title": "PDF to JPG",
+      "description": "Convert PDF pages to JPG images."
+    },
+    "pdf_to_png": {
+      "title": "PDF to PNG",
+      "description": "Convert PDF pages to PNG images."
+    },
+    "image_to_pdf": {
+      "title": "Image to PDF",
+      "description": "Convert JPG, PNG, and other images to PDF."
+    },
+    "pdf_to_html": {
+      "title": "PDF to HTML",
+      "description": "Convert PDF files to HTML."
+    }
+  },
+  "not_found": {
+    "title": "Page Not Found",
+    "description": "The page you are looking for does not exist."
+  },
+  "language": {
+    "en": "English",
+    "de": "German",
+    "switch": "Switch to {{lang}}"
+  },
+  "nav": {
+    "home": "Home",
+    "tools": "Tools",
+    "blogs": "Blogs",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "footer": {
+    "description": "All PDF tools you need in one place. Free, secure, and easy to use.",
+    "tools": "Tools",
+    "company": "Company",
+    "connect": "Connect",
+    "about_us": "About Us",
+    "contact": "Contact",
+    "privacy_policy": "Privacy Policy",
+    "terms_of_service": "Terms of Service",
+    "rights_reserved": "All rights reserved.",
+    "merge_pdf": "Merge PDF",
+    "split_pdf": "Split PDF",
+    "pdf_to_word": "PDF to Word",
+    "word_to_pdf": "Word to PDF"
+  },
+  "hero": {
+    "title": "All PDF Tools You Need in One Place",
+    "subtitle": "Convert, edit, merge and split PDF files. 100% free and secure - your files never leave your computer.",
+    "button": "Explore Tools"
+  },
+  "features": {
+    "title": "Why Choose PDF Flyer?",
+    "secure": {
+      "title": "100% Secure",
+      "description": "Your files are processed locally in your browser and never uploaded to any server."
+    },
+    "fast": {
+      "title": "Fast Processing",
+      "description": "No waiting for file uploads or downloads - process files instantly in your browser."
+    },
+    "free": {
+      "title": "Completely Free",
+      "description": "All our PDF tools are free to use with no hidden costs or limitations."
+    }
+  },
+  "about": {
+    "title": "About PDF Flyer",
+    "intro": {
+      "title": "Welcome to PDF Flyer",
+      "paragraph1": "PDF Flyer is your go-to online platform for all your PDF needs. We provide a comprehensive suite of tools designed to help you convert, edit, merge, split, and manage your PDF documents with ease and efficiency.",
+      "paragraph2": "Our mission is to simplify document management for everyone. Whether you're a student, professional, or just someone who deals with PDFs regularly, PDF Flyer offers intuitive and powerful tools to streamline your workflow."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "paragraph1": "At PDF Flyer, we believe in making powerful tools accessible to everyone. Our mission is to provide a free, secure, and user-friendly platform that empowers individuals and businesses to handle their PDF documents without compromising on privacy or quality."
+    },
+    "key_features": {
+      "title": "Key Features",
+      "privacy": {
+        "title": "Privacy-Focused",
+        "description": "Your privacy is our top priority. All file processing happens directly in your browser, ensuring that your sensitive documents never leave your computer or touch our servers."
+      },
+      "speed": {
+        "title": "Blazing Fast",
+        "description": "Experience lightning-fast processing speeds. Since everything is done locally, there's no waiting for uploads or downloads, giving you instant results."
+      },
+      "cost": {
+        "title": "Completely Free",
+        "description": "Enjoy unlimited access to all our tools without any hidden costs, subscriptions, or limitations. PDF Flyer is truly free for everyone."
+      }
+    },
+    "tech_stack": {
+      "title": "Our Technology",
+      "description": "PDF Flyer is built with modern web technologies to ensure a smooth, responsive, and secure user experience. We leverage the power of React for a dynamic frontend, Vite for a fast development environment, and Tailwind CSS for a sleek and customizable design. Our client-side processing is powered by robust JavaScript libraries."
+    },
+    "team": {
+      "title": "The Team Behind PDF Flyer",
+      "paragraph1": "PDF Flyer is developed and maintained by a passionate team of engineers dedicated to creating high-quality, privacy-respecting web applications. We are committed to continuous improvement and bringing you the best PDF tools."
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "paragraph1": "Have questions, feedback, or suggestions? We'd love to hear from you! Reach out to us at info@pdflyer.com."
+    }
+  },
+  "contact_page": {
+    "title": "Contact Us",
+    "intro": {
+      "paragraph1": "We'd love to hear from you! Whether you have a question, feedback, or a suggestion, feel free to reach out to us using the form below or through our contact information."
+    },
+    "form": {
+      "title": "Get in Touch",
+      "name": "Your Name",
+      "email": "Your Email",
+      "subject": "Subject",
+      "message": "Your Message",
+      "submit_button": "Send Message"
+    },
+    "info": {
+      "title": "Contact Information",
+      "email_label": "Email",
+      "email_address": "info@pdflyer.com"
+    },
+    "disclaimer": "By submitting this form, you agree to the processing of your data in accordance with our Privacy Policy.",
+    "success_message": "Thank you for your message! We will get back to you shortly.",
+    "error_message": "There was an error sending your message. Please try again later."
+  },
+  "privacy_policy": {
+    "title": "Privacy Policy",
+    "last_updated": "Last Updated: September 6, 2025",
+    "intro": {
+      "paragraph1": "This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You."
+    },
+    "information_we_collect": {
+      "title": "Information We Collect",
+      "paragraph1": "We do not collect any personal data from You when You use PDF Flyer. All file processing is done locally in Your browser. Your files never leave Your device and are not stored on Our servers."
+    },
+    "how_we_use_your_information": {
+      "title": "How We Use Your Information",
+      "paragraph1": "Since We do not collect any personal information, We do not use Your information in any way."
+    },
+    "data_security": {
+      "title": "Data Security",
+      "paragraph1": "We are committed to ensuring that Your information is secure. In order to prevent unauthorized access or disclosure, We have put in place suitable physical, electronic and managerial procedures to safeguard and secure the information We collect online. However, since We do not collect any data, this section primarily serves as a general statement of Our commitment to security principles."
+    },
+    "changes_to_this_policy": {
+      "title": "Changes to This Privacy Policy",
+      "paragraph1": "We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page."
+    },
+    "contact_us": {
+      "title": "Contact Us",
+      "paragraph1": "If you have any questions about this Privacy Policy, You can contact us: By email: info@pdflyer.com"
+    }
+  },
+  "terms_of_service": {
+    "title": "Terms of Service",
+    "last_updated": "Last Updated: September 6, 2025",
+    "intro": {
+      "paragraph1": "Please read these Terms of Service carefully before using Our Service."
+    },
+    "acceptance_of_terms": {
+      "title": "Acceptance of Terms",
+      "paragraph1": "By accessing or using the Service, You agree to be bound by these Terms. If You disagree with any part of the Terms then You may not access the Service."
+    },
+    "use_of_service": {
+      "title": "Use of Service",
+      "paragraph1": "PDF Flyer provides online tools for PDF manipulation. You agree to use the Service only for lawful purposes and in a way that does not infringe the rights of, restrict or inhibit anyone else's use and enjoyment of the Service."
+    },
+    "intellectual_property": {
+      "title": "Intellectual Property",
+      "paragraph1": "The Service and its original content (excluding Content provided by You or other users), features and functionality are and will remain the exclusive property of PDF Flyer and its licensors."
+    },
+    "disclaimer_of_warranties": {
+      "title": "Disclaimer of Warranties",
+      "paragraph1": "The Service is provided on an \"AS IS\" and \"AS AVAILABLE\" basis. PDF Flyer makes no representations or warranties of any kind, express or implied, as to the operation of their Service, or the information, content or materials included therein."
+    },
+    "limitation_of_liability": {
+      "title": "Limitation of Liability",
+      "paragraph1": "In no event shall PDF Flyer, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from (i) Your access to or use of or inability to access or use the Service; (ii) any conduct or content of any third party on the Service; (iii) any content obtained from the Service; and (iv) unauthorized access, use or alteration of Your transmissions or content, whether based on warranty, contract, tort (including negligence) or any other legal theory, whether or not We have been informed of the possibility of such damage, and even if a remedy set forth herein is found to have failed of its essential purpose."
+    },
+    "changes_to_terms": {
+      "title": "Changes to These Terms of Service",
+      "paragraph1": "We reserve the right, at Our sole discretion, to modify or replace these Terms at any time. If a revision is material We will make reasonable efforts to provide at least 30 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at Our sole discretion."
+    },
+    "governing_law": {
+      "title": "Governing Law",
+      "paragraph1": "These Terms shall be governed and construed in accordance with the laws of Berlin, Germany, without regard to its conflict of law provisions."
+    },
+    "contact_us": {
+      "title": "Contact Us",
+      "paragraph1": "If you have any questions about these Terms of Service, You can contact us: By email: info@pdflyer.com"
+    }
+  }
+}
